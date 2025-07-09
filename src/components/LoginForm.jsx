@@ -31,7 +31,7 @@ const LoginForm = ({ onLogin }) => {
     <div className="login-container">
       <div className="login-header">
         <h2>Iniciar Sesión</h2>
-        <p>Ingresa a tu cuenta para continuar</p>
+        <p>Ingresa tus datos para continuar</p>
       </div>
       
       {error && <div className="error-message">{error}</div>}
@@ -60,9 +60,7 @@ const LoginForm = ({ onLogin }) => {
         </div>
         
         <div className="remember-forgot">
-          <label>
-            <input type="checkbox" /> Recordarme
-          </label>
+          
           <button 
             type="button" 
             className="forgot-link"
